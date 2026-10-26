@@ -82,11 +82,12 @@ tests/test_business_rules.py
 
 ## 6. The commit history
 
-(.venv) darealdavid1@eduroam-Wifi-130-97-222 ism3232-midterm % git log --oneline
-9ae1f15 (HEAD -> main, origin/main) Added rules 5-8 for boundaries & formatting
+d05c951 (HEAD -> main, origin/main) Finalized README withcomplete files and AI statement
+2d68519 Part 2 of README sections covering the environment setup & how to run
+a6e9657 Part 1 of README sections covering overview & business rules
+d5f6b1a Completed commands.md with project setup & git history
+9ae1f15 Added rules 5-8 for boundaries & formatting
 b435aa7 Added rules 1-4 for discounts, pricing, and setupfees
 ff1fb94 Imported functions in main.py and added a loop for the output
 37445e8 Completed all business rules, loops, and constants
 285e3d0 set up project structure, .gitignore, and virtualenvironment
-
-At this point, there is 5 commits in my repository history.
