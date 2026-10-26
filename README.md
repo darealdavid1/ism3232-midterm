@@ -24,3 +24,17 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python3 main.py
+
+## Files in This Repository
+
+- `.gitignore`: Specifies files to keep out of Git.
+- `requirements.txt`: Lists the versions including pytest and ruff.
+- `business_rules.py`: Contains the eight standalone logic calculation and formatting functions.
+- `main.py`: Imports the rules across sample print orders and displays the 15-line operational report.
+- `commands.md`: Documents all commands, environment verification, and commit history.
+- `README.md`: Provides project documentation, instructions, and testing details.
+- `tests/test_business_rules.py`: Contains the unit test suite verifying pricing calculations, boundary edges, and aggregations.
+
+## AI Use Statement
+
+I did not use AI on this exam.
