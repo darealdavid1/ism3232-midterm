@@ -16,3 +16,11 @@ This program calculates print job price quotes based on volume and affiliation, 
 4. **Setup Fee:** A $15.00 setup fee is applied to any job whose discounted subtotal is strictly less than $40.00.
 5. **Proof Approval:** Any job with a final total greater than $300.00 requires a mandatory customer proof before printing.
 6. **Overnight Production Run:** Jobs exceeding 500 copies or totaling more than $400.00 require an overnight production run.
+
+## How to Run
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 main.py
